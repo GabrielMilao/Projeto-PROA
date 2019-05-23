@@ -2,3 +2,75 @@
 	padding: 0;
 	margin: 0;
 }
+.containerProa{
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+}
+.containerProa-block{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.containerProa-blockImg{
+	width: 200px;
+	height: 200px;
+}
+.containerProa-blockParagrafo{
+	width: 55%;
+	font-size: 17px;
+}
+.containerProa-blockImagens{
+
+}
+.containeProa-blockImagens--icons{
+
+}
+.containerInforme{
+	
+	background-color: #64B486;
+}
+.containerInforme-icons{
+	width: 50%;
+	height: 50%;
+	background-color: #FD837E;
+	border-radius: 50%;
+}
+.containerEncontros{
+	width: 100vw;
+	background-color: #FFF9BF;
+}
+.containerEncontros-titulo{
+
+}
+.containerEncontro-paragrafo{
+
+}
+.containerEncontros-img{
+
+}
+.containerMidia{
+
+}
+.containerMidia-block{
+
+}
+.containerMidia-blockTitulo{
+
+}
+.containerMidia-blockVideo{
+
+}
+.containerMidia-blockParagrafo{
+
+}
+.containerMidia-blockSecond{
+
+}
+.containerMidia-blockSecond--img{
+
+}
+.containerMidia-blockSecond--paragrafo{
+
+}
