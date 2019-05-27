@@ -2,6 +2,8 @@
 	padding: 0;
 	margin: 0;
 }
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 .containerProa{
 	width: 100vw;
 	display: flex;
@@ -20,6 +22,7 @@
 .containerProa-blockParagrafo{
 	width: 55%;
 	font-size: 17px;
+	font-family: 'Roboto Slab', sans-serif;
 }
 .containerProa-blockImagens{
 
@@ -28,49 +31,68 @@
 
 }
 .containerInforme{
-	
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 	background-color: #64B486;
+	padding-top: 35px;
+	padding-bottom:30px;
+	
 }
 .containerInforme-icons{
-	width: 50%;
-	height: 50%;
+	width: 100px;
+	height: 100px;
 	background-color: #FD837E;
 	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	font-family: 'BalboaPlus Fill';
 }
 .containerEncontros{
 	width: 100vw;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background-color: #FFF9BF;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
 }
 .containerEncontros-titulo{
-
+	font-family: 'BalboaPlus Fill', sans-serif;
+	color: #000000;
 }
 .containerEncontro-paragrafo{
-
+	width: 45%;
+	font-size: 15px;
 }
 .containerEncontros-img{
 
 }
 .containerMidia{
-
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
 }
 .containerMidia-block{
-
+	width: 100%;
 }
 .containerMidia-blockTitulo{
-
+	font-family:  'Oswald', sans-serif;
 }
 .containerMidia-blockVideo{
-
+	width: 255px;
 }
 .containerMidia-blockParagrafo{
-
+	font-family: 'Filson Soft', sans-serif;
 }
 .containerMidia-blockSecond{
 
 }
 .containerMidia-blockSecond--img{
-
+	width: 245px;
 }
 .containerMidia-blockSecond--paragrafo{
-
+	font-family: 'Filson Soft', sans-serif;
 }
