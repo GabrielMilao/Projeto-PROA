@@ -9,35 +9,86 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: #FFFFFF;
+	opacity: 20%;;
 }
 .containerProa-block{
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+@media (max-width: 640px){
+	.containerProa-block{
+		width:100%;
+		display: flex;
+		flex-direction: column;
+		margin-left: 80px;
+	}
 }
 .containerProa-blockImg{
 	width: 200px;
 	height: 200px;
+	display: flex;
+	align-self: center;
+	margin-left: 80px;
 }
+@media (max-width: 640px){
+	.containerProa-blockImg{
+		width: 350px;
+		height: 350px;
+		margin-top: 60px;
+	}
+}
+
 .containerProa-blockParagrafo{
 	width: 55%;
-	font-size: 17px;
+	font-size: 15px;
 	font-family: 'Roboto Slab', sans-serif;
+	margin: 60px;
+}
+@media (max-width: 640px){
+	.containerProa-blockParagrafo{
+		font-size: 16px;
+		width: 117vw;
+		margin: 10px;
+		margin-top: 50px;
+		margin-bottom: 60px;
+		
+
+	}
 }
 .containerProa-blockImagens{
+		padding: 0;		
 
 }
-.containeProa-blockImagens--icons{
 
+.containerProa-blockImagens--icons{
+	width: 285px;
+	left: -40px;
+	opacity: 60%;
+}
+@media (max-width: 640px){
+	.containerProa-blockImagens--icons{
+		display: none;
+	}
 }
 .containerInforme{
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	background-color: #64B486;
 	padding-top: 35px;
 	padding-bottom:30px;
 	
+}
+@media (max-width: 640px) {
+	.containerInforme{
+		/*width: 100vh;*/
+		flex-wrap: wrap;
+		width: 100vw;
+		/*margin-left: 100px;*/
+		padding: 90px;
+
+	}
 }
 .containerInforme-icons{
 	width: 100px;
@@ -50,6 +101,13 @@
 	color: #FFFFFF;
 	font-family: 'BalboaPlus Fill';
 }
+@media (max-width: 640px){
+	.containerInforme-icons{
+		width: 120px;
+		height: 120px;
+		margin-bottom: 50px;
+ }
+}
 .containerEncontros{
 	width: 100vw;
 	padding-top: 40px;
@@ -59,13 +117,23 @@
 	justify-content:space-around;
 	align-items: center;
 }
+@media (max-width: 640px){
+	.containerEncontros{
+		display: none;
+		
+	}
+}
 .containerEncontros-titulo{
 	font-family: 'BalboaPlus Fill', sans-serif;
 	color: #000000;
+	font-size: 32px;
+	margin-left: 40px;
 }
+
 .containerEncontro-paragrafo{
-	width: 45%;
+	width: 26%;
 	font-size: 15px;
+	margin-left: -75px;
 }
 .containerEncontros-img{
 
@@ -75,21 +143,43 @@
 	display: flex;
 	justify-content: space-around;
 }
+@media (max-width: 640px){
+	.containerMedia{
+		
+		flex-direction: column;
+	}
+}
 .containerMidia-block{
 	width: 100%;
+	
 }
 .containerMidia-blockTitulo{
 	font-family:  'Oswald', sans-serif;
 }
+@media (max-width:640px){
+	.containerMedia-blockTitulo{
+		justify-content: center;
+		margin: 20px;
+	}
+}
+
 .containerMidia-blockVideo{
 	width: 550px;
 	height: 300px;
 }
+@media (max-width: 640px){
+	.containerMidia-blockTitulo{
+		width: 20%;
+	}
+}
 .containerMidia-blockParagrafo{
 	font-family: 'Filson Soft', sans-serif;
+
 }
 .containerMidia-blockSecond{
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .containerMidia-blockSecond--img{
 	width: 245px;
